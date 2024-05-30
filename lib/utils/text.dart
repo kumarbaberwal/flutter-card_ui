@@ -12,7 +12,8 @@ class ModifiedText extends StatelessWidget {
   Widget build(BuildContext context) {
     return Text(
       text,
-      style: GoogleFonts.mada(color: color, fontSize: size, fontStyle: FontStyle.italic),
+      style: GoogleFonts.mada(
+          color: color, fontSize: size, fontStyle: FontStyle.italic),
     );
   }
 }

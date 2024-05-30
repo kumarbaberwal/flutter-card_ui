@@ -71,7 +71,7 @@ class Content extends StatelessWidget {
               ),
             ],
           ),
-        ), 
+        ),
         Positioned(
           right: 10,
           child: SizedBox(
